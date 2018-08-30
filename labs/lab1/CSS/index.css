@@ -1,0 +1,10 @@
+
+
+h1 {
+    color: blue;
+}
+
+#nav_list {
+    list-style-type: none;
+    display: inline;
+}
