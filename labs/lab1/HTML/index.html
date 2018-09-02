@@ -1,46 +1,45 @@
-<! DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    
+
     <head>
         <meta charset="UTF-8">
         <title> LAB 1 - WebScripting Truls </title>
         <link rel="Stylesheet" type="text/css" href="../CSS/index.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">
     </head>
-    
+
     <body>
-        
-        <header>
-            <h1>Welcome to my page</h1>
-        </header>
-        
         <nav>
             <ul id="nav_list">
-                <li><a href="">Neste side</a></li>
-                <li><a href="">Neste side</a></li>
-                <li><a href="">Neste side</a></li>
+                <li class="current"><a href="/cst352/labs/lab1/HTML/index.html">Home</a></li>
+                <li><a href="/cst352/labs/lab1/HTML/about.html">About</a></li>
+                <li><a href="/cst352/labs/lab1/HTML/contact.html">Contact</a></li>
             </ul>
         </nav>
-        
+
         <main>
-            
             <section>
-                <!-- Informasjon om meg
-                /cst352/img/csumb_logo.png
-                -->
-                <article>
-                    <p>Something something Otter</p>
-                </article>
-                <section>
-                    <img src="../../../img/csumb_logo.png"></img>
+
+                <section class ="imgHolder">
+                  <img src="../../../img/viking.jpeg" class ="imgHolder" alt="Vikingskipet Hamar Norway"/>
                 </section>
+
+                <section class="textHolder">
+                  <article>
+                    The lively city of Hamar is located on the east shores of Mjøsa, Norway's largest lake.
+                    Most of Mjøsa's shores are dominated by rolling agricultural areas,
+                    among them some of the most fertile grainlands in Norway.
+                  </article>
+                </section>
+
             </section>
-            
         </main>
-        
-        <footer>
+
+        <footer class="footer">
             <p>This is the footer</p>
+            <img id ="csumb_footer" src="../../../img/csumb_logo.png" alt="otter logo"/>
         </footer>
-    
+
     </body>
 
 </html>

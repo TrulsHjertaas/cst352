@@ -1,10 +1,112 @@
-
-
-h1 {
-    color: blue;
+* {
+  margin: 0;
+  font-family: 'Merienda', cursive;
 }
 
+/*Navigation*/
 #nav_list {
     list-style-type: none;
-    display: inline;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4A525A;
+}
+
+#nav_list li {
+  float: left;
+}
+
+#nav_list li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  text-decoration: none;
+}
+
+#nav_list li a:hover {
+  background-color: white;
+  color: #4A525A;
+}
+
+.current {
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+/*HOME !!*/
+
+
+.textHolder {
+  height: 12em;
+  width: 36em;
+  margin: 0 auto;
+  padding: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  box-shadow: 0.5em 0.5em 0.9em #4A525A;
+}
+
+/*Center image*/
+.imgHolder {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: auto;
+}
+
+
+/*ABOUT*/
+
+
+#csumb {
+  width: auto;
+}
+
+.table {
+  width: 75%;
+  height: auto;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+#hobby {
+  background-color: white;
+  list-style-type: circle;
+  margin: 0;
+  padding: 1em;
+  line-height: 2em;
+}
+
+
+/*  CONTACT  */
+
+
+.forms {
+  height: 50em;
+  width: 40em;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+
+/*Footer*/
+.footer {
+  height: 5em;
+  width: 100%;
+  background-color: #4A525A;
+  flex-shrink: 0;
+}
+
+#csumb_footer {
+  height: 50%;
+  width: auto;
+  float: right;
+  margin-right: 2em;
+}
+
+.footer p {
+  color: white;
+  text-align: center;
 }
