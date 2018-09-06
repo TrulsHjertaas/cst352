@@ -38,22 +38,33 @@
 /*HOME !!*/
 
 
+.mainFlex {
+  margin: 0 auto;
+  display: flex;
+  height: 50em;
+  width: 50em;
+  background-color: red;
+}
+
+
 .textHolder {
-  height: 12em;
-  width: 36em;
+  flex-direction: row;
+  height: auto;
+  width: 40%;
   margin: 0 auto;
   padding: 2em;
   margin-bottom: 2em;
-  margin-top: 2em;
+  /*margin-top: 2em;*/
   box-shadow: 0.5em 0.5em 0.9em #4A525A;
 }
 
 /*Center image*/
 .imgHolder {
+  flex-direction: row;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
   height: auto;
 }
 
