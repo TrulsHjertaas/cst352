@@ -38,6 +38,15 @@
 /*HOME !!*/
 
 
+.flex {
+  padding-top: 4em;
+  padding-bottom: 4em;
+  display: flex;
+  width: 65em;
+  height: auto;
+  margin: 0 auto;
+}
+
 .textHolder {
   height: auto;
   width: 65em;
@@ -48,13 +57,32 @@
   box-shadow: 0.5em 0.5em 0.9em #4A525A;
 }
 
+.textHolder1 {
+  flex-direction: row;
+  height: auto;
+  width: 40%;
+  margin: 0 auto;
+  padding: 2em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  box-shadow: 0.5em 0.5em 0.9em #4A525A;
+}
+
 /*Center image*/
 .imgHolder {
-
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 60%;
+  height: auto;
+}
+
+.imgHolder1 {
+  flex-direction: row;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
   height: auto;
 }
 
