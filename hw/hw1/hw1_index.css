@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#nav_bar {
+  background-color: #D63230;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav_bar li {
+  float: left;
+}
+
+#nav_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 2em;
+  text-decoration: none;
+}
+
+#nav_bar li a:hover {
+  background-color: white;
+  color: grey;
+}
+
+.main_nav {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.current {
+  background-color: black;
+}
+
+.flexContainer {
+  width: 68em;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+  padding: 2em;
+  /*background-color: red;*/
+}
+
+.flex_box {
+  height: 20em;
+  width: 30em;
+  padding: 1em;
+  /*border-style: solid;
+  border-width: medium;*/
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.flex_box p {
+  padding: 1em;
+  line-height: 1.75em;
+}
+
+.flex_box a {
+  text-decoration: none;
+  font-style: italic;
+  color: black;
+}
+
+.flex_box a:hover {
+  color: #FFDC00
+}
+
+.img_holder img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*margin-top: -4em;*/
+  width: 50%;
+}
+
+.footer_btm {
+  position: fixed;
+  width: 100%;
+  background-color: #D63230;
+  bottom: 0;
+}
+
+.footer_btm p {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding: 2em;
+}
