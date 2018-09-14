@@ -14,7 +14,7 @@
         
         <?php 
         for($i=1; $i<4; $i++){
-            ${"random_img" .$i} = rand(0,2);
+            ${"random_img" .$i} = rand(0,3);
             victory(${"random_img" .$i}, $i);
         }
         
@@ -28,6 +28,8 @@
             case 1: $symbol = "cherry";
             break;
             case 2: $symbol = "lemon";
+            break;
+            case 3: $symbol = "orange";
             break;
         }
         echo "<img id='reel$pos' src='img/$symbol.png' alt='$symbol' title='".ucfirst($symbol)."' width='70px'>";
