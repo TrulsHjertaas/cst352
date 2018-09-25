@@ -1,0 +1,25 @@
+* {
+    text-align: center;
+    font-family: 'Bungee Inline', cursive;
+}
+
+body {
+    background-image: url("bck.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+h2 {
+    color: white;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+}
+
+footer p {
+    color: white;
+}
