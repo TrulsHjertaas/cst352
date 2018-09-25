@@ -36,7 +36,7 @@
         echo "<h2> $RapNameFirst1[$randomIndex] $name[0]</h2>";
     
         if($RapNameFirst1[$randomIndex] == $RapNameFirst1[7]) {
-            echo "<img src='rich_brian.jpg' alt='Rich Brian' title='".ucfirst('Rich Brian')."' width='150px'>";
+            echo "<img src='rich.jpg' alt='Rich Brian' title='".ucfirst('Rich Brian')."' width='150px'>";
         }
         else if($RapNameFirst1[$randomIndex] == $RapNameFirst1[8]) {
             echo "<img src='gucci.jpg' alt='Gucci Mane' title='".ucfirst('Gucci Mane')."' width='150px'>";
