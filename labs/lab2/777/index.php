@@ -50,6 +50,9 @@
                     case 2: $totalPoints = 250;
                             echo '<EMBED SRC="tada.mp3" HIDDEN="TRUE" AUTOSTART="TRUE"></EMBED>';
                             break;
+                    case 3: $totalPoints = 50;
+                            echo '<EMBED SRC="tada.mp3" HIDDEN="TRUE" AUTOSTART="TRUE"></EMBED>';
+                            break;
                 }
                 echo "<h2>You won $totalPoints points!</h2>";
             } else {
