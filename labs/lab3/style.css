@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    background-image: radial-gradient(circle, #b60612, #8b041e, #5e0c1f, #320e17, #000000);
+    color: white;
+    padding: 2em;
+}
+
+.ace {
+    border: 2px yellow solid;
+}
+
+h1 h2{
+    text-align: center;
+    color: white;
+}
