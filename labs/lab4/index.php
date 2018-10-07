@@ -28,10 +28,6 @@
       
       $randomBackground = $imageURLs[$randomIndex];
       
-      //print_r($imageURLs);
-
-      //echo "You searched for:  <strong> $keyword </strong>";
-      
       shuffle($imageURLs);
   
    }
@@ -144,10 +140,6 @@
                 echo "<li data-target='#carouselExampleIndicators' data-slide-to='$i'></li>";
               }
             ?>
-           <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li> -->
           </ol>
           <div class="carousel-inner">
             <!--<div class="carousel-item active">
@@ -158,10 +150,6 @@
             for ($i=0; $i < 7; $i++) {
                echo "<div class='carousel-item "; 
                echo ($i == 0)?" active ":"";   //ternary operator, it's exactly the same as condition below
-               
-              // if ($i == 0) {
-              //   echo " active ";
-              // }
                
                echo "'>";
                echo "<img class=\"d-block w-100\" src=\"".$imageURLs[$i]."\" alt=\"Second slide\">";
@@ -182,7 +170,7 @@
 
         <?php
         
-       } //closes if statement (if isset($keyword) )
+       } 
        
        ?>
     
