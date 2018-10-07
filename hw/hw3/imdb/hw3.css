@@ -1,0 +1,39 @@
+* {
+    margin: 0 auto;
+}
+
+.topContainer {
+    width: 65em;
+    height: 8em;
+    text-align: center;
+    background-color: grey;
+}
+
+.topContainer h1 {
+    color: white;
+    padding-top: 1em;
+}
+
+.mainContainer {
+    width: 65em;
+    height: 20em;
+    background-color: grey;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info {
+    background-color: red;
+    width: 50%;
+    height: auto;
+    flex-shrink: 1;
+}
+
+.imgHolder {
+    background-color: blue;
+    width: 50%;
+    height: auto;
+    flex-shrink: 1;
+}

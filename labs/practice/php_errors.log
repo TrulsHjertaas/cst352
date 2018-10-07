@@ -1,0 +1,24 @@
+[04-Oct-2018 18:04:06 UTC] PHP Warning:  Missing argument 1 for displayNumbers(), called in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 50 and defined in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 6
+[04-Oct-2018 18:04:06 UTC] PHP Stack trace:
+[04-Oct-2018 18:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:0
+[04-Oct-2018 18:04:06 UTC] PHP   2. displayNumbers() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:50
+[04-Oct-2018 18:04:06 UTC] PHP Warning:  Missing argument 2 for displayNumbers(), called in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 50 and defined in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 6
+[04-Oct-2018 18:04:06 UTC] PHP Stack trace:
+[04-Oct-2018 18:04:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:0
+[04-Oct-2018 18:04:06 UTC] PHP   2. displayNumbers() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:50
+[04-Oct-2018 18:04:07 UTC] PHP Warning:  Missing argument 1 for displayNumbers(), called in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 50 and defined in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 6
+[04-Oct-2018 18:04:07 UTC] PHP Stack trace:
+[04-Oct-2018 18:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:0
+[04-Oct-2018 18:04:07 UTC] PHP   2. displayNumbers() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:50
+[04-Oct-2018 18:04:07 UTC] PHP Warning:  Missing argument 2 for displayNumbers(), called in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 50 and defined in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 6
+[04-Oct-2018 18:04:07 UTC] PHP Stack trace:
+[04-Oct-2018 18:04:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:0
+[04-Oct-2018 18:04:07 UTC] PHP   2. displayNumbers() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:50
+[04-Oct-2018 18:04:23 UTC] PHP Warning:  Missing argument 1 for displayNumbers(), called in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 50 and defined in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 6
+[04-Oct-2018 18:04:23 UTC] PHP Stack trace:
+[04-Oct-2018 18:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:0
+[04-Oct-2018 18:04:23 UTC] PHP   2. displayNumbers() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:50
+[04-Oct-2018 18:04:23 UTC] PHP Warning:  Missing argument 2 for displayNumbers(), called in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 50 and defined in /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php on line 6
+[04-Oct-2018 18:04:23 UTC] PHP Stack trace:
+[04-Oct-2018 18:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:0
+[04-Oct-2018 18:04:23 UTC] PHP   2. displayNumbers() /home/ubuntu/workspace/cst352/labs/practice/zodiac/index.php:50
