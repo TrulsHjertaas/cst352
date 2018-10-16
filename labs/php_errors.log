@@ -12,3 +12,53 @@
 [02-Oct-2018 18:26:02 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst352/labs/lab4/index.php on line 56
 [02-Oct-2018 18:26:02 UTC] PHP Stack trace:
 [02-Oct-2018 18:26:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab4/index.php:0
+[11-Oct-2018 18:17:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/labs/lab5/index.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab5/index.php(6): PDO->__construct('mysql:host=loca...', NULL, '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 6
+[11-Oct-2018 18:17:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/labs/lab5/index.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab5/index.php(6): PDO->__construct('mysql:host=loca...', NULL, '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 6
+[11-Oct-2018 18:17:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/labs/lab5/index.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab5/index.php(6): PDO->__construct('mysql:host=loca...', NULL, '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 6
+[11-Oct-2018 18:17:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/labs/lab5/index.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab5/index.php(6): PDO->__construct('mysql:host=loca...', NULL, '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 6
+[11-Oct-2018 18:17:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user ''@'localhost' (using password: NO)' in /home/ubuntu/workspace/cst352/labs/lab5/index.php:6
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab5/index.php(6): PDO->__construct('mysql:host=loca...', NULL, '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 6
+[11-Oct-2018 18:26:16 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 12
+[11-Oct-2018 18:26:16 UTC] PHP Stack trace:
+[11-Oct-2018 18:26:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[11-Oct-2018 18:29:58 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 14
+[11-Oct-2018 18:29:58 UTC] PHP Stack trace:
+[11-Oct-2018 18:29:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[11-Oct-2018 18:29:58 UTC] PHP   2. displayAllQuotes() /home/ubuntu/workspace/cst352/labs/lab5/index.php:28
+[11-Oct-2018 18:30:30 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 14
+[11-Oct-2018 18:30:30 UTC] PHP Stack trace:
+[11-Oct-2018 18:30:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[11-Oct-2018 18:30:30 UTC] PHP   2. displayAllQuotes() /home/ubuntu/workspace/cst352/labs/lab5/index.php:28
+[11-Oct-2018 18:30:31 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 14
+[11-Oct-2018 18:30:31 UTC] PHP Stack trace:
+[11-Oct-2018 18:30:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[11-Oct-2018 18:30:31 UTC] PHP   2. displayAllQuotes() /home/ubuntu/workspace/cst352/labs/lab5/index.php:28
+[11-Oct-2018 18:31:49 UTC] PHP Fatal error:  Class 'POD' not found in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 14
+[11-Oct-2018 18:31:49 UTC] PHP Stack trace:
+[11-Oct-2018 18:31:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[11-Oct-2018 18:31:49 UTC] PHP   2. displayAllQuotes() /home/ubuntu/workspace/cst352/labs/lab5/index.php:28
+[11-Oct-2018 18:37:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '[quote] asc' at line 1' in /home/ubuntu/workspace/cst352/labs/lab5/index.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab5/index.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/cst352/labs/lab5/index.php(32): displayAllQuotes()
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 13

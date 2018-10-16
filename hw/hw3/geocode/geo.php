@@ -73,6 +73,7 @@ if (!empty($_GET['location'])) {
                 <figure class="imgHolder">
                     <div id="results" data-url="<?php if (!empty($instagram_url)) echo $instagram_url ?>">
                     <?php
+                     echo $lat . ' and ' . $lang;
                     if (!empty($instagram_array)) {
                         foreach ($instagram_array['data'] as $image) {
                             echo '<img src="' . $image['images']['low_resolution']['url'] . '" alt=""/><br/>';

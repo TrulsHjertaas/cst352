@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+}
+
+.form_container {
+    margin: 0 auto;
+    width: 65em;
+    height: 10em;
+    text-align: center;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px;
+    /*background-color: yellow;*/
+}
+
+.button {
+    margin:0 auto;
+    text-align: center;
+}
