@@ -33,7 +33,10 @@ $value3;
                         if($q1 === 'Oslo' || $q1 === 'oslo') {
                             echo"Correct";
                             $value1 = $_GET['submit'];
-                        }   
+                        }
+                        else if($q1 ==='') {
+                            echo"Field empty";
+                        }
                         else {
                             echo"Wrong";
                         }
