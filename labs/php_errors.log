@@ -62,3 +62,12 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst352/labs/lab5/index.php(32): displayAllQuotes()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 13
+[16-Oct-2018 20:20:36 UTC] PHP Warning:  include(../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 20:20:36 UTC] PHP Stack trace:
+[16-Oct-2018 20:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 20:20:36 UTC] PHP Warning:  include(): Failed opening '../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 4
+[16-Oct-2018 20:20:36 UTC] PHP Stack trace:
+[16-Oct-2018 20:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
+[16-Oct-2018 20:20:36 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab5/index.php on line 5
+[16-Oct-2018 20:20:36 UTC] PHP Stack trace:
+[16-Oct-2018 20:20:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab5/index.php:0
