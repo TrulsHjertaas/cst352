@@ -18,9 +18,12 @@ function displayAuthorInfo(){
  
   //print_r($record);
   
-  echo "<span class='info'> Bio: </span>" . $record['bio'] . "<br>";
-  echo "<span class='info'> Day of Birth </span>" . $record['dob'] . "<br>";
-  echo "<span class='info'> Day of Dead: </span>". $record['dod'] . "<br>";
+  echo "<span class='info'> Bio: </span>" . $record['bio'] . "<br><br>";
+  echo "<span class='info'> Day of Birth </span>" . $record['dob'] . "<br><br>";
+  echo "<span class='info'> Day of Dead: </span>". $record['dod'] . "<br><br>";
+  echo "<span class='info'> Gender: </span>". $record['gender'] . "<br><br>";
+  echo "<span class='info'> Country of origin: </span>". $record['country'] . "<br><br>";
+  echo "<span class='info'> Profession </span>". $record['profession'] . "<br><br>";
   echo '<img src="data:image/jpeg;base64,'.$imageData.'">';
 }
 
@@ -38,8 +41,9 @@ function displayAuthorInfo(){
         <h2> Author Info </h2>
 
         <br>
-        
+        <article class="authorText">
         <?=displayAuthorInfo()?>
+        </article>
         
     </body>
 </html>
