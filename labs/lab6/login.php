@@ -1,3 +1,9 @@
+<?php 
+
+session_start();
+
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -16,6 +22,14 @@
             
         </form>
 
+        <?php 
+        
+        if(isset($_SESSION['wrong'])) {
+            echo $_SESSION['wrong'];
+            unset($_SESSION['wrong']);
+        }
+        
+        ?>
 
     </body>
 </html>

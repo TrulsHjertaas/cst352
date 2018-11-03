@@ -33,8 +33,11 @@ session_start();  //starts or resumes a session
  //print_r($record);
  if (empty($record)){
      
-     header("location: login.php"); //redirects to another program.
      echo "Error: Wrong Username or Password!!";
+     $_SESSION['wrong'] = "Error, wrong username or password";
+     header("location: login.php"); 
+     exit();
+     //redirects to another program.
      //echo "Welcome" . $_SESSION['adminName'];
      
  } else {
