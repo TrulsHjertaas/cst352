@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> JS Review </title>
+        
+        <script>
+            
+            function hideMe() {
+                document.getElementById("catImage").src="img/now_you_dont.png";
+                document.getElementById("message").innerHTML="Good Bye";
+            }
+            
+            function seeMe() {
+                document.getElementById("catImage").src="img/now_you_see_me.png";
+                document.getElementById("message").innerHTML="Hello";
+            }
+            
+        </script>
+        
+    </head>
+    <body>
+        
+        <img id="catImage" src="img/now_you_see_me.png"></img>
+       
+        <h2 id="message"> Now you see me! </h2>
+           
+            <button onclick="hideMe()"> Hide </button>
+            <button onclick="seeMe()"> Show </button>
+   
+    </body>
+</html>
