@@ -1,0 +1,65 @@
+
+body{
+	background-color: #000000;
+	margin: 0;
+	text-align: center;
+}
+
+#gameWindow{
+	position: relative;
+	margin: 0 auto;
+	width: 600px;
+	height: 400px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#pacman, #redGhost, #blueGhost, #greenGhost, #pinkGhost{
+	position: absolute;
+}
+
+.rotate90 {
+	transform: rotate(90deg);
+	behavior:url(-ms-transform.htc);
+	-webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+}
+
+.rotate270 {
+	transform: rotate(270deg);
+	behavior:url(-ms-transform.htc);
+	-webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+}
+
+.flip-horizontal {
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.wall {
+	position: absolute;
+	/*background-color: #81F499;*/
+	background-image: linear-gradient(to bottom right, red, yellow);
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+#headline {
+	padding: 2em;
+	color: yellow;
+	margin: 0 auto;
+	text-align: center;
+}
