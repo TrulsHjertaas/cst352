@@ -1,0 +1,22 @@
+body {
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+}
+.error{
+    color:red;
+}
+.valid {
+    color: white;
+}
+#btn {
+    height: 50px;
+    width: 100px;
+    background-color: #00F44D;
+    color: white;
+}
+
+#aroundForm {
+    background-color: #586F7C;
+    border-radius: 30px;
+    color: #00F44D;
+}
