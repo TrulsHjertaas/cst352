@@ -1,0 +1,36 @@
+[13-Dec-2018 02:31:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cars'' in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/project2/api/getAllCarMakers.php(4): getConnection('cars')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php on line 19
+[13-Dec-2018 02:31:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cars'' in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/project2/api/getCount.php(6): getConnection('cars')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php on line 19
+[13-Dec-2018 02:31:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cars'' in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/project2/api/getAverage.php(6): getConnection('cars')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php on line 19
+[13-Dec-2018 02:32:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cars'' in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/project2/api/getAllCarMakers.php(4): getConnection('cars')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php on line 19
+[13-Dec-2018 02:32:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cars'' in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/project2/api/getCount.php(6): getConnection('cars')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php on line 19
+[13-Dec-2018 02:32:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cars'' in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst352/project2/api/getAverage.php(6): getConnection('cars')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst352/project2/api/sqlConnection.php on line 19

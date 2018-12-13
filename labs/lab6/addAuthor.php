@@ -42,7 +42,7 @@ if (isset($_GET['addAuthorForm'])) {  //checks whether the form has been submitt
   $stmt = $dbConn->prepare($sql);                 
   $stmt->execute($namedParameters); //This will insert the record!
   
-  echo "Author was added!";
+  echo "User added!";
  
 }
 
