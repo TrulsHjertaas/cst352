@@ -125,3 +125,257 @@ Stack trace:
 #1 /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php(62): displayAllPets()
 #2 {main}
   thrown in /home/ubuntu/workspace/cst352/labs/lab9/adoptions.php on line 13
+[15-Dec-2018 22:33:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:34:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:34:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:40:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:42:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:42:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:43:37 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:37 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:37 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:37 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:37 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:37 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:38 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:38 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:38 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:38 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:38 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:38 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:39 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:39 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:40 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:40 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:40 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:40 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:40 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:40 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:50 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:50 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:56 UTC] PHP Warning:  include(../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:56 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:56 UTC] PHP Warning:  include(): Failed opening '../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:43:56 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:43:56 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:43:56 UTC] PHP Stack trace:
+[15-Dec-2018 22:43:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:48 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:48 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:48 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:48 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:48 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:48 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:49 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:49 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:49 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:49 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:49 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:49 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:44:50 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:44:50 UTC] PHP Stack trace:
+[15-Dec-2018 22:44:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:45:13 UTC] PHP Warning:  include(../../../sqlConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:45:13 UTC] PHP Stack trace:
+[15-Dec-2018 22:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:45:13 UTC] PHP Warning:  include(): Failed opening '../../../sqlConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 2
+[15-Dec-2018 22:45:13 UTC] PHP Stack trace:
+[15-Dec-2018 22:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:45:13 UTC] PHP Fatal error:  Call to undefined function getConnection() in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 3
+[15-Dec-2018 22:45:13 UTC] PHP Stack trace:
+[15-Dec-2018 22:45:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:0
+[15-Dec-2018 22:47:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:47:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:47:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:47:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:47:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:47:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
+[15-Dec-2018 22:47:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'quotes.lab10_quiz' doesn't exist' in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php:10
+Stack trace:
+#0 /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php(10): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/cst352/labs/lab10/updateScore.php on line 10
